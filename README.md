@@ -99,8 +99,8 @@ You can get yolov5s.wts model in `yolov5/weights/`
 ```shell 
 cd tensorrtx/yolov5
 // update CLASS_NUM to 2 in yololayer.h 
-// nc: 2  # number of classes
-// names: ['nosmoke','smoke']  # class names
+// nc: 1  # number of classes
+// names: ['smoke']  # class names
 
 mkdir build
 cd build
